@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Ipv4.cpp
+iostream
+-
+Ipv4.h
+/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Ipv4.h
+
+/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Ipv4.h
+array
+-
+bits/ios_base.h
+-
+sstream
+-
+
+/home/takacchi/CLionProjects/modern_cpp_exc/main.cpp
+iostream
+-
+language_functions/Ipv4.h
+/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Ipv4.h
+
