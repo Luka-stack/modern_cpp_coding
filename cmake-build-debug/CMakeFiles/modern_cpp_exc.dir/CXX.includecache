@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Ipv4.cpp
+/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Great2D.cpp
+Great2D.h
+/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Great2D.h
+
+/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Great2D.h
 iostream
 -
-Ipv4.h
-/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Ipv4.h
+vector
+-
 
 /home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Ipv4.h
 array
@@ -25,4 +29,6 @@ iostream
 -
 language_functions/Ipv4.h
 /home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Ipv4.h
+language_functions/Great2D.h
+/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Great2D.h
 

@@ -123,6 +123,33 @@ modern_cpp_exc/fast:
 	$(MAKE) -f CMakeFiles/modern_cpp_exc.dir/build.make CMakeFiles/modern_cpp_exc.dir/build
 .PHONY : modern_cpp_exc/fast
 
+language_functions/Great2D.o: language_functions/Great2D.cpp.o
+
+.PHONY : language_functions/Great2D.o
+
+# target to build an object file
+language_functions/Great2D.cpp.o:
+	$(MAKE) -f CMakeFiles/modern_cpp_exc.dir/build.make CMakeFiles/modern_cpp_exc.dir/language_functions/Great2D.cpp.o
+.PHONY : language_functions/Great2D.cpp.o
+
+language_functions/Great2D.i: language_functions/Great2D.cpp.i
+
+.PHONY : language_functions/Great2D.i
+
+# target to preprocess a source file
+language_functions/Great2D.cpp.i:
+	$(MAKE) -f CMakeFiles/modern_cpp_exc.dir/build.make CMakeFiles/modern_cpp_exc.dir/language_functions/Great2D.cpp.i
+.PHONY : language_functions/Great2D.cpp.i
+
+language_functions/Great2D.s: language_functions/Great2D.cpp.s
+
+.PHONY : language_functions/Great2D.s
+
+# target to generate assembly for a file
+language_functions/Great2D.cpp.s:
+	$(MAKE) -f CMakeFiles/modern_cpp_exc.dir/build.make CMakeFiles/modern_cpp_exc.dir/language_functions/Great2D.cpp.s
+.PHONY : language_functions/Great2D.cpp.s
+
 language_functions/Ipv4.o: language_functions/Ipv4.cpp.o
 
 .PHONY : language_functions/Ipv4.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... modern_cpp_exc"
 	@echo "... edit_cache"
+	@echo "... language_functions/Great2D.o"
+	@echo "... language_functions/Great2D.i"
+	@echo "... language_functions/Great2D.s"
 	@echo "... language_functions/Ipv4.o"
 	@echo "... language_functions/Ipv4.i"
 	@echo "... language_functions/Ipv4.s"
