@@ -11,6 +11,10 @@
 #include <sstream>
 #include <algorithm>
 
+/*
+ * Implementation of functions in math_problems header
+ */
+
 
 /*
  * convenient functions implementations

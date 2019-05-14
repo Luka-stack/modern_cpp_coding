@@ -5,10 +5,11 @@
 #ifndef MODERN_CPP_EXC_MATH_PROBLEMS_H
 #define MODERN_CPP_EXC_MATH_PROBLEMS_H
 
-
 /*
  * convenient functions
  */
+
+#include <string>
 
 // check if number is prime
 bool is_prime(unsigned);

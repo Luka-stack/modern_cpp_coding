@@ -84,9 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Great2D.cpp">
-			<Option target="modern_cpp_exc"/>
-		</Unit>
 		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Great2D.h">
 			<Option target="modern_cpp_exc"/>
 		</Unit>
@@ -94,6 +91,12 @@
 			<Option target="modern_cpp_exc"/>
 		</Unit>
 		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Ipv4.h">
+			<Option target="modern_cpp_exc"/>
+		</Unit>
+		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/any_args_number.h">
+			<Option target="modern_cpp_exc"/>
+		</Unit>
+		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/container_function.h">
 			<Option target="modern_cpp_exc"/>
 		</Unit>
 		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/main.cpp">
