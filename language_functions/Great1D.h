@@ -36,12 +36,9 @@ public:
 
     void fill(D const& value) { std::fill(std::begin(array), std::end(array), value); }
     void clear() { array.clear(); }
-
     void swap(Great1D& great1D) { array.swap(great1D.array); }
     void push(D const& value) { array.push_back(value); }
-
     void desc_sort() { std::sort(std::begin(array), std::end(array)); }
-    // TODO check
     void asc_sort() { std::sort(std::begin(array), std::end(array), std::greater<D>()); }
 
     const_iterator begin() const { return array.data(); }
