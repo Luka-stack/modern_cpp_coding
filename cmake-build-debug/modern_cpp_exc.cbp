@@ -84,6 +84,33 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/chain_regex/capitalize_sentences.h">
+			<Option target="modern_cpp_exc"/>
+		</Unit>
+		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/chain_regex/date_transform.h">
+			<Option target="modern_cpp_exc"/>
+		</Unit>
+		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/chain_regex/join_string.h">
+			<Option target="modern_cpp_exc"/>
+		</Unit>
+		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/chain_regex/plaindrome.h">
+			<Option target="modern_cpp_exc"/>
+		</Unit>
+		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/chain_regex/split_string.h">
+			<Option target="modern_cpp_exc"/>
+		</Unit>
+		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/chain_regex/sys_converters.h">
+			<Option target="modern_cpp_exc"/>
+		</Unit>
+		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/chain_regex/url_parts.h">
+			<Option target="modern_cpp_exc"/>
+		</Unit>
+		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/chain_regex/validate_license.h">
+			<Option target="modern_cpp_exc"/>
+		</Unit>
+		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Great1D.h">
+			<Option target="modern_cpp_exc"/>
+		</Unit>
 		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Great2D.h">
 			<Option target="modern_cpp_exc"/>
 		</Unit>
@@ -99,13 +126,22 @@
 		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/container_function.h">
 			<Option target="modern_cpp_exc"/>
 		</Unit>
+		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/temperature.h">
+			<Option target="modern_cpp_exc"/>
+		</Unit>
 		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/main.cpp">
+			<Option target="modern_cpp_exc"/>
+		</Unit>
+		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/math_problems/main.cpp">
 			<Option target="modern_cpp_exc"/>
 		</Unit>
 		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/math_problems/math_problems.cpp">
 			<Option target="modern_cpp_exc"/>
 		</Unit>
 		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/math_problems/math_problems.h">
+			<Option target="modern_cpp_exc"/>
+		</Unit>
+		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/some_other_stuff/MyVector.h">
 			<Option target="modern_cpp_exc"/>
 		</Unit>
 		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/CMakeLists.txt">

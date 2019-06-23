@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/takacchi/CLionProjects/modern_cpp_exc/math_problems/main.cpp
+iostream
+-
+assert.h
+-
+math_problems.h
+/home/takacchi/CLionProjects/modern_cpp_exc/math_problems/math_problems.h
+
+/home/takacchi/CLionProjects/modern_cpp_exc/math_problems/math_problems.h
+string
+-
+vector
+-
+set
+-
+numeric
+-
+

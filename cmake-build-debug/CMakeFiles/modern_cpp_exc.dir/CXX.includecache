@@ -6,21 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/container_function.h
+/home/takacchi/CLionProjects/modern_cpp_exc/chain_regex/validate_license.h
 iostream
 -
-functional
--
-vector
--
-list
--
-iterator
+regex
 -
 
 /home/takacchi/CLionProjects/modern_cpp_exc/main.cpp
 iostream
 -
-language_functions/container_function.h
-/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/container_function.h
+sstream
+-
+chain_regex/validate_license.h
+/home/takacchi/CLionProjects/modern_cpp_exc/chain_regex/validate_license.h
 

@@ -5,11 +5,14 @@
 #include <numeric>
 #include <cmath>
 #include <vector>
+#include <set>
+#include <iterator>
 #include <bitset>
 #include <random>
 #include <chrono>
 #include <sstream>
 #include <algorithm>
+#include <utility>
 
 /*
  * Implementation of functions in math_problems header
@@ -98,11 +101,11 @@ unsigned lcm(unsigned a, unsigned b)
     return com_div ? (a * (b / com_div)) : 0;
 }
 
-template <class InputIterator>
-unsigned lcm_ext(InputIterator first, InputIterator last)
+/*template <class InputIterator>
+unsigned lcm_r(InputIterator first, InputIterator last)
 {
     return std::accumulate(first, last, 1, lcm);
-}
+}*/
 
 unsigned smaller_prime(unsigned N)
 {
@@ -115,46 +118,59 @@ unsigned smaller_prime(unsigned N)
     return 0;
 }
 
-void sixs_prime(unsigned N)
+std::set<unsigned> sixs_prime(unsigned N)
 {
-    for (int i = 2; i >= N; i++)
+    std::set<unsigned> results;
+
+    for (unsigned i = 2; i <= N; i++)
     {
         if (is_prime(i) && is_prime(i + 6))
         {
-            std::cout << i << " & " << i+6 << std::endl;
+            results.insert(i);
+            results.insert(i+6);
         }
     }
 
+    return results;
 }
 
-void abundant_numbers(unsigned N)
+std::vector<unsigned> abundant_numbers(unsigned N)
 {
+    std::vector<unsigned> results;
+
     for (int i = 12; i <= N; i++)
     {
         int abundant = sum_prop_div(i);
         if (abundant > i)
         {
-            std::cout << i << ", abundant=" << abundant << std::endl;
+            results.push_back(i);
         }
     }
+
+    return results;
 }
 
-void amicable_numbers(unsigned N)
+std::vector<std::pair<unsigned, unsigned>> amicable_numbers(unsigned N)
 {
+    std::vector<std::pair<unsigned, unsigned>> results;
+
     for (int i = 4; i < N; i++)
     {
         int sum_one = sum_prop_div(i);
-        if (sum_one < N)
-        {
+        if (sum_one < N) {
             int sum_two = sum_prop_div(sum_one);
             if (sum_two == i && i != sum_one)
-                std::cout << i << " & " << sum_one << std::endl;
+                results.emplace_back(i, sum_one);
         }
     }
+
+    return results;
 }
 
-void print_armstrong()
+std::vector<unsigned> print_armstrong()
 {
+    std::vector<unsigned> results;
+
     for (int a = 1; a < 10; a++)
     {
         for (int b = 0; b < 10; b++)
@@ -164,15 +180,17 @@ void print_armstrong()
                 int number = a * 100 + b * 10 + c;
                 int sum = (a*a*a) + (b*b*b) + (c*c*c);
                 if (number == sum)
-                    std::cout << number << std::endl;
+                    results.push_back(number);
             }
         }
     }
+
+    return results;
 }
 
-void first_factors(unsigned num)
+std::vector<unsigned> first_factors(unsigned num)
 {
-    std::vector<unsigned long long> factors;
+    std::vector<unsigned> factors;
     std::stringstream result;
 
     while (num % 2 == 0)
@@ -182,7 +200,7 @@ void first_factors(unsigned num)
         num /= 2;
     }
 
-    for (unsigned long long i = 3; i < std::sqrt(num); i += 2)
+    for (unsigned i = 3; i < std::sqrt(num); i += 2)
     {
         while (num % i == 0) {
             result << i << " ";
@@ -197,10 +215,12 @@ void first_factors(unsigned num)
         result << num;
     }
 
-    std::cout << result.str();
+    //std::cout << result.str();
 
-    /*for (unsigned long long i : factors)
-        std::cout << i << std::endl;*/
+    for (auto i : factors)
+        std::cout << i << std::endl;
+
+    return factors;
 }
 
 unsigned gray_encode(unsigned num)

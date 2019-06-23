@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/Ipv4.cpp" "/home/takacchi/CLionProjects/modern_cpp_exc/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/language_functions/Ipv4.cpp.o"
   "/home/takacchi/CLionProjects/modern_cpp_exc/main.cpp" "/home/takacchi/CLionProjects/modern_cpp_exc/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/main.cpp.o"
+  "/home/takacchi/CLionProjects/modern_cpp_exc/math_problems/main.cpp" "/home/takacchi/CLionProjects/modern_cpp_exc/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/math_problems/main.cpp.o"
   "/home/takacchi/CLionProjects/modern_cpp_exc/math_problems/math_problems.cpp" "/home/takacchi/CLionProjects/modern_cpp_exc/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/math_problems/math_problems.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

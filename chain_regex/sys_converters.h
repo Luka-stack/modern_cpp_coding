@@ -6,6 +6,7 @@
 #define MODERN_CPP_EXC_SYS_CONVERTERS_H
 
 #include <string>
+#include <vector>
 #include <sstream>
 #include <iomanip>
 
