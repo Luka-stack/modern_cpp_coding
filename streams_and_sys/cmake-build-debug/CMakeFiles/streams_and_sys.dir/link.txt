@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/streams_and_sys.dir/main.cpp.o CMakeFiles/streams_and_sys.dir/declarations.cpp.o  -o streams_and_sys 

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/takacchi/CLionProjects/modern_cpp_exc/streams_and_sys/declarations.cpp
+cmath
+-
+iostream
+-
+declarations.h
+/home/takacchi/CLionProjects/modern_cpp_exc/streams_and_sys/declarations.h
+
+/home/takacchi/CLionProjects/modern_cpp_exc/streams_and_sys/declarations.h
+

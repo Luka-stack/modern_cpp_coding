@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="modern_cpp_exc" targetName="math_problems" />
+      <config projectName="modern_cpp_exc" targetName="streams_and_sys" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -12,45 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c15ab8c-4405-4307-9c4d-19acb577783c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chain_regex/capitalize_sentences.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chain_regex/date_transform.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chain_regex/join_string.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chain_regex/plaindrome.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chain_regex/split_string.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chain_regex/url_parts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chain_regex/validate_license.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language_functions/temperature.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/math_problems/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/math_problems/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams_and_sys/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams_and_sys/declarations.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams_and_sys/declarations.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams_and_sys/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chain_regex/sys_converters.h" beforeDir="false" afterPath="$PROJECT_DIR$/chain_regex/sys_converters.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modern_cpp_exc.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/modern_cpp_exc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/modern_cpp_exc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/modern_cpp_exc.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/modern_cpp_exc.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/math_problems/math_problems.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/math_problems/math_problems.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/math_problems/math_problems.h" beforeDir="false" afterPath="$PROJECT_DIR$/math_problems/math_problems.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/some_other_stuff/MyVector.h" beforeDir="false" afterPath="$PROJECT_DIR$/some_other_stuff/MyVector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math_problems/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/math_problems/cmake-build-debug/CMakeCache.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/math_problems/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/streams_and_sys/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,93 +48,51 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6340909">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/math_problems/math_problems.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
-                  <folding>
-                    <element signature="e#154#171#0" expanded="true" />
-                    <element signature="e#857#878#0" expanded="true" />
-                    <element signature="e#767#987#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/math_problems/math_problems.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="365">
-                  <caret line="349" selection-start-line="349" selection-end-line="349" />
-                  <folding>
-                    <element signature="e#42#61#0" expanded="true" />
-                    <element signature="e#275#648#0" />
-                    <element signature="e#650#874#0" />
-                    <element signature="e#876#998#0" />
-                    <element signature="e#1000#1055#0" />
-                    <element signature="e#1098#1320#0" />
-                    <element signature="e#1322#1421#0" />
-                    <element signature="e#1423#1575#0" />
-                    <element signature="e#1577#1696#0" />
-                    <element signature="e#1733#1876#0" />
-                    <element signature="e#1841#1985#0" />
-                    <element signature="e#1982#2268#0" />
-                    <element signature="e#2303#2559#0" />
-                    <element signature="e#2601#3076#0" />
-                    <element signature="e#3025#3434#0" />
-                    <element signature="e#3482#4158#0" />
-                    <element signature="e#3782#3849#0" />
-                    <element signature="e#3851#4027#0" />
-                    <element signature="e#4029#4375#0" />
-                    <element signature="e#4377#5852#0" />
-                    <element signature="e#5152#5603#0" />
-                    <element signature="e#5854#6499#0" />
-                    <element signature="e#6501#7115#0" />
-                    <element signature="e#7117#7752#0" />
-                    <element signature="e#7754#8314#0" />
-                    <element signature="e#8316#8973#0" />
-                    <element signature="e#8975#9502#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/math_problems/main.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#43#62#0" expanded="true" />
-                    <element signature="e#162#179#0" />
-                    <element signature="e#411#434#0" />
-                    <element signature="e#794#1052#0" />
-                    <element signature="e#937#960#0" />
-                    <element signature="e#1219#1471#0" />
-                    <element signature="e#1518#1541#0" />
-                    <element signature="e#1803#1826#0" />
-                    <element signature="e#2200#2223#0" />
-                    <element signature="e#2496#2513#0" />
-                    <element signature="e#2779#2802#0" />
-                    <element signature="e#3022#3046#0" />
-                    <element signature="e#3397#3421#0" />
-                    <element signature="e#3364#3388#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/streams_and_sys/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/streams_and_sys/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="e#43#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/streams_and_sys/declarations.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/streams_and_sys/declarations.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+              <folding>
+                <element signature="e#43#59#0" expanded="true" />
+                <element signature="e#70#106#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -204,10 +134,14 @@
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/chain_regex/url_parts.h" />
         <option value="$PROJECT_DIR$/chain_regex/date_transform.h" />
-        <option value="$PROJECT_DIR$/math_problems/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/math_problems/math_problems.cpp" />
         <option value="$PROJECT_DIR$/math_problems/main.cpp" />
         <option value="$PROJECT_DIR$/math_problems/math_problems.h" />
+        <option value="$PROJECT_DIR$/math_problems/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/streams_and_sys/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/streams_and_sys/declarations.h" />
+        <option value="$PROJECT_DIR$/streams_and_sys/declarations.cpp" />
+        <option value="$PROJECT_DIR$/streams_and_sys/main.cpp" />
       </list>
     </option>
   </component>
@@ -237,23 +171,13 @@
             <path>
               <item name="modern_cpp_exc" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/CLionProjects/modern_cpp_exc" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="some_other_stuff" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="streams_and_sys" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="modern_cpp_exc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="math_problems" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,7 +205,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="math_problems" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="modern_cpp_exc" TARGET_NAME="math_problems" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="modern_cpp_exc" RUN_TARGET_NAME="math_problems">
+    <configuration name="streams_and_sys" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="modern_cpp_exc" TARGET_NAME="streams_and_sys" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="modern_cpp_exc" RUN_TARGET_NAME="streams_and_sys">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -321,18 +245,18 @@
       <workItem from="1559677424474" duration="11000" />
       <workItem from="1559721911061" duration="833000" />
       <workItem from="1560279747143" duration="7000" />
-      <workItem from="1561295517050" duration="12063000" />
+      <workItem from="1561295517050" duration="15637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147240000" />
+    <option name="totallyTimeSpent" value="150814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="1366" height="770" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4851794" weight="0.27727273" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4851794" visible="true" weight="0.27727273" />
       <window_info id="Structure" order="1" sideWeight="0.5148206" side_tool="true" weight="0.26818183" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -612,16 +536,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/math_problems/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/math_problems/math_problems.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+        <state relative-caret-position="1845">
+          <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
+          <folding>
+            <element signature="e#154#171#0" expanded="true" />
+            <element signature="e#857#878#0" expanded="true" />
+            <element signature="e#767#987#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/math_problems/math_problems.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
+        <state relative-caret-position="379">
           <caret line="349" selection-start-line="349" selection-end-line="349" />
           <folding>
             <element signature="e#42#61#0" expanded="true" />
@@ -655,37 +584,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/streams_and_sys/main.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/math_problems/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_problems/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/streams_and_sys/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/streams_and_sys/declarations.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
           <folding>
-            <element signature="e#43#62#0" expanded="true" />
-            <element signature="e#162#179#0" />
-            <element signature="e#411#434#0" />
-            <element signature="e#794#1052#0" />
-            <element signature="e#937#960#0" />
-            <element signature="e#1219#1471#0" />
-            <element signature="e#1518#1541#0" />
-            <element signature="e#1803#1826#0" />
-            <element signature="e#2200#2223#0" />
-            <element signature="e#2496#2513#0" />
-            <element signature="e#2779#2802#0" />
-            <element signature="e#3022#3046#0" />
-            <element signature="e#3397#3421#0" />
-            <element signature="e#3364#3388#0" />
+            <element signature="e#43#59#0" expanded="true" />
+            <element signature="e#70#106#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/math_problems/math_problems.h">
+    <entry file="file://$PROJECT_DIR$/streams_and_sys/declarations.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/streams_and_sys/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
-            <element signature="e#154#171#0" expanded="true" />
-            <element signature="e#857#878#0" expanded="true" />
-            <element signature="e#767#987#0" />
+            <element signature="e#43#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
