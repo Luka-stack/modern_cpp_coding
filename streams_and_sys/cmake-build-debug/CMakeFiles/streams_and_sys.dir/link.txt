@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/streams_and_sys.dir/main.cpp.o CMakeFiles/streams_and_sys.dir/declarations.cpp.o  -o streams_and_sys 
+/usr/bin/c++  -g   CMakeFiles/streams_and_sys.dir/main.cpp.o CMakeFiles/streams_and_sys.dir/declarations.cpp.o CMakeFiles/streams_and_sys.dir/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.cpp.o  -o streams_and_sys 

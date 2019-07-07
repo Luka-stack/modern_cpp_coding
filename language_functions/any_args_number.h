@@ -109,16 +109,4 @@ template <class T> struct summy {
     T operator()(const T &x, const T &y) const { return x + y; }
 };
 
-// Test function for last two exercises
-void test_two_last()
-{
-    auto build_in_compare = mini_usr(std::greater<>(), 3, 2, 1, 0);
-    auto mine_compare = mini_usr(equaly<int>(), 3, 2, 1, 0);
-    auto mine_summ = sum_usr(summy<int>(), 3, 2, 1, 0);
-
-    std::cout << "Build in Compare: " << build_in_compare << std::endl;
-    std::cout << "Mine Compare: " << mine_compare << std::endl;
-    std::cout << "Mine Sum: " << mine_summ << std::endl;
-}
-
 #endif //MODERN_CPP_EXC_ANY_ARGS_NUMBER_H

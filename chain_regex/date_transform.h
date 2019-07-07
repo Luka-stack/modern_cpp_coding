@@ -13,7 +13,7 @@
 
 std::string date_transform(std::string_view date)
 {
-    auto rx = std::regex{ R"((\{1,2})(\.|-|/)(\d{1,2})(\.|-|/)(\d{4}))" };
+    auto rx = std::regex{ R"((\d{1,2})(\.|-|/)(\d{1,2})(\.|-|/)(\d{4}))" };
     return std::regex_replace(date.data(), rx, R"($5-$3-$1)");
 }
 

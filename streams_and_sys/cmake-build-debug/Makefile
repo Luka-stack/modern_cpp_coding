@@ -150,6 +150,33 @@ declarations.cpp.s:
 	$(MAKE) -f CMakeFiles/streams_and_sys.dir/build.make CMakeFiles/streams_and_sys.dir/declarations.cpp.s
 .PHONY : declarations.cpp.s
 
+home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.o: home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.cpp.o
+
+.PHONY : home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.o
+
+# target to build an object file
+home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.cpp.o:
+	$(MAKE) -f CMakeFiles/streams_and_sys.dir/build.make CMakeFiles/streams_and_sys.dir/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.cpp.o
+.PHONY : home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.cpp.o
+
+home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.i: home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.cpp.i
+
+.PHONY : home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.i
+
+# target to preprocess a source file
+home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.cpp.i:
+	$(MAKE) -f CMakeFiles/streams_and_sys.dir/build.make CMakeFiles/streams_and_sys.dir/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.cpp.i
+.PHONY : home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.cpp.i
+
+home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.s: home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.cpp.s
+
+.PHONY : home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.s
+
+# target to generate assembly for a file
+home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.cpp.s:
+	$(MAKE) -f CMakeFiles/streams_and_sys.dir/build.make CMakeFiles/streams_and_sys.dir/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.cpp.s
+.PHONY : home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... declarations.o"
 	@echo "... declarations.i"
 	@echo "... declarations.s"
+	@echo "... home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.o"
+	@echo "... home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.i"
+	@echo "... home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -26,6 +26,12 @@ std::string bytes_to_hexstr(Iter begin, Iter end, bool const uppercase=false)
 
 }
 
+template <typename C>
+std::string bytes_to_hexstr(C const &c, bool const uppercase=false)
+{
+    return bytes_to_hexstr(std::begin(c), std::end(c), uppercase);
+}
+
 /*
  * Define function that converts string to binary type
  */
@@ -56,8 +62,8 @@ std::vector<unsigned char> hexstr_to_bytes(std::string_view hex)
 
     return result;
 }
-/*
-// changing string
+
+/*// changing string
 std::vector<unsigned char> hexstr_to_bytes(std::string&& hex)
 {
     std::vector<unsigned char> result;
@@ -71,8 +77,7 @@ std::vector<unsigned char> hexstr_to_bytes(std::string&& hex)
     }
 
     return result;
-}
-*/
+}*/
 
 // Standard one length delimiter
 std::vector<unsigned char> hexstr_to_bytes_delimeter(std::string_view hex, bool delimiter=true)

@@ -6,7 +6,6 @@
 #define MODERN_CPP_EXC_IPV4_H
 
 #include <array>
-#include <bits/ios_base.h>
 #include <sstream>
 
 class Ipv4
@@ -21,7 +20,7 @@ public:
 
     Ipv4& operator=(const Ipv4&);
     Ipv4& operator++();
-    Ipv4& operator++(int);
+    const Ipv4  operator++(int);
 
     std::string to_string() const;
     unsigned long to_long() const;

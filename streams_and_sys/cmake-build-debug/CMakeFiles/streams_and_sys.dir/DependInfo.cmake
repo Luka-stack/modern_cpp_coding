@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/takacchi/CLionProjects/modern_cpp_exc/streams_and_sys/declarations.cpp" "/home/takacchi/CLionProjects/modern_cpp_exc/streams_and_sys/cmake-build-debug/CMakeFiles/streams_and_sys.dir/declarations.cpp.o"
+  "/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.cpp" "/home/takacchi/CLionProjects/modern_cpp_exc/streams_and_sys/cmake-build-debug/CMakeFiles/streams_and_sys.dir/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.cpp.o"
   "/home/takacchi/CLionProjects/modern_cpp_exc/streams_and_sys/main.cpp" "/home/takacchi/CLionProjects/modern_cpp_exc/streams_and_sys/cmake-build-debug/CMakeFiles/streams_and_sys.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

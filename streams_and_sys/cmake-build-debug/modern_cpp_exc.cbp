@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/language_functions/main.cpp">
+			<Option target="streams_and_sys"/>
+		</Unit>
 		<Unit filename="/home/takacchi/CLionProjects/modern_cpp_exc/streams_and_sys/declarations.cpp">
 			<Option target="streams_and_sys"/>
 		</Unit>

@@ -95,7 +95,7 @@ namespace temperature
     template <>
     struct conversion_degree<scale::fahrenheit, scale::celsius>
     {
-        static double covert(double const value)
+        static double convert(double const value)
         {
             return (value - 32) * 5 / 9;
         }

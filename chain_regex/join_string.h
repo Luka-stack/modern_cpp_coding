@@ -9,6 +9,7 @@
 #include <sstream>
 #include <iterator>
 
+// not working with lists
 /*template <typename Iter>
 std::string join_strings(Iter begin, Iter end, char const* const separator)
 {
@@ -19,6 +20,7 @@ std::string join_strings(Iter begin, Iter end, char const* const separator)
 
     return stream.str();
 }*/
+
 
 template <typename Iter>
 std::string join_strings(Iter begin, Iter end, char const* const separator)

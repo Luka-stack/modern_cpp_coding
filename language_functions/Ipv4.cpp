@@ -54,7 +54,7 @@ Ipv4& Ipv4::operator++()
     return *this;
 }
 
-Ipv4& Ipv4::operator++(int)
+const Ipv4  Ipv4::operator++(int)
 {
     Ipv4 tmp(*this);
     ++(*this);
